@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script> -->
+    <!-- End Google Tag Manager -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Personal Portfolio</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet" /> -->
+    <!-- <link rel="stylesheet" href="assets/css/styles2.css" /> -->
+    <link rel="stylesheet" href="assets/css/styles3.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script> -->
+    <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169007209-3');
+  </script> -->
+
+    <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-tops">
+      <div class="container">
+        <h4
+          id="intro-greeting"
+          style="
+            font-size: 36px;
+            margin-top: 0px;
+            padding: 0;
+            line-height: 1;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+          "
+        >
+          Hi, I'm
+        </h4>
+        <h1><a href="index.html" id="full-name">Tim Chen</a></h1>
+        <!-- <h2 style="color: #fff">
+          I'm <span class="typing" style="color: #12d640"></span>
+        </h2> -->
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active">
+              <a href="#header"> <span>Home</span></a>
+            </li>
+            <li>
+              <a href="#about"><span>About</span></a>
+            </li>
+            <!-- <li>
+              <a href="#education"> <span>Education</span></a>
+            </li> -->
+            <li>
+              <a href="#experience"> <span>Experience</span></a>
+            </li>
+            <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+            <li>
+              <a href="#portfolio"> <span>Projects</span></a>
+            </li>
+            <li>
+              <a href="#skills"> <span>Skills</span></a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1yxLZs4MCYOcAtljkKFSuuFv1gq4u8Rm1/view?usp=sharing"
+                target="_blank"
+              >
+                <span>Resume</span></a
+              >
+            </li>
+            <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
+            <!-- <li>
+              <a href="#contacts"> <span>Contact</span></a>
+            </li> -->
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/tim-chen-082509187/"
+            target="_blank"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/fuxtoy" target="_blank" class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:timchen0179@gmail.com" target="_blank" class="google"
+            ><i class="bx bxl-google"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img
+              src="assets/img/tim photo.jpg"
+              class="img-fluid"
+              alt="Uday Photo"
+            />
+          </div>
+
+          <div
+            class="col-lg-8 pt-4 pt-lg-0 content"
+            data-aos="fade-left"
+            style="font-weight: 500; color: #020a2d"
+          >
+            <p>
+              Personality:
+			  Strong execution and high self-requirement. Willingness, and motivation for new things and technology.Always think the biggest advance compared with others is self-confidence and perseverance in handling things.Pick up on skills quickly and with problem-solving abilities.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <!-- <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Birthday:</strong> 17 October 1996
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Phone:</strong> +91 9550894392
+                  </li> -->
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>City:</strong> Taipei, TAIWAN
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Email:</strong> timchen0719@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me -->
+	  <!-- ======= Educate ======= -->
+	  <div class="container">
+        <div class="section-title">
+          <h2>Education</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.ntou.edu.tw/" style="color: #071814"
+                  >National Taiwan Ocean University</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">2021 - 2023</h5>
+              <p style="text-align: left; color: #172615; font-size: medium">
+                <em>Bachelor of Science in Computer Science</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                   Conference Participation : 
+				   <br>尖端地層下陷防治技術整合研究 Taoyuan, Taiwan, Sep 2022
+                </li>
+                <li>
+                  Workshop Participation : 
+				  <br>AWS Educate Technical Workshop Taipei, Taiwan, Oct 2022
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.ncyu.edu.tw/" style="color: #071814"
+                  >National Chiayi University</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">2019 - 2021</h5>
+              <p style="text-align: left; color: #172615; font-size: medium">
+                <em>Bachelor of Business Administration in Management Information System </em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Windows Programming Project 3rd grade
+                </li>
+                <li>
+                  Management Science Project 2rd grade
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+	  </div>
+	  <!-- END Educate  -->
+	  <!-- ======= Certificate ======= -->
+	  <div class="interests container">
+        <div class="section-title">
+          <h2>Certificate</h2>
+        </div>
+		
+        <div class="row">	
+          <div class="col-lg-3 col-md-4">
+            <h4 style="text-align: left">
+              <a href="https://www.hackerrank.com/certificates/e60597b269eb" style="color: #071814"
+                >SQL (Advanced) Certificate</a
+              ><br />
+            </h4>
+            <h5 style="text-align: left">HackerRank</h5>
+            <p style="text-align: left; color: #172615; font-size: medium">
+              <em>ID:E60597B269EB</em>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h4 style="text-align: left">
+              <a href="https://www.coursera.org/account/accomplishments/certificate/2VEP9LN969UE" style="color: #071814"
+                >University of California, Davis - SQL for Data Science</a
+              ><br />
+            </h4>
+            <h5 style="text-align: left">UC Davis | Coursera</h5>
+            <p style="text-align: left; color: #172615; font-size: medium">
+              <em>ID:2VEP9LN969UE</em>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h4 style="text-align: left">
+              <a href="https://coursera.org/share/7f4fe7fd1cad020d30dc37bb6aa7b682" style="color: #071814"
+                >University of Michigan - Python Data Structures</a
+              ><br />
+            </h4>
+            <h5 style="text-align: left">University of Michigan | Coursera</h5>
+            <p style="text-align: left; color: #172615; font-size: medium">
+              <em>ID:P8XDLLAGCMBU</em>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h4 style="text-align: left">
+              <a href="https://www.coursera.org/account/accomplishments/verify/LBYN9QBMLLAU" style="color: #071814"
+                >University of Michigan - Using Python to Access Web Data</a
+              ><br />
+            </h4>
+            <h5 style="text-align: left">University of Michigan | Coursera</h5>
+            <p style="text-align: left; color: #172615; font-size: medium">
+              <em>ID:LBYN9QBMLLAU</em>
+            </p>
+          </div>		  
+        </div>
+	  </div>
+	  <!-- END Certificate -->
+      <!-- ======= Interests ======= -->
+      <div class="interests container">
+        <div class="section-title">
+          <h2>Interests</h2>
+        </div>
+
+        <div class="row">
+          <!-- <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-computer-line" style="color: #ffbb2c"></i>
+              <h3>Pervasive Computing</h3>
+            </div>
+          </div> -->
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-computer-line" style="color: #ffbb2c"></i>
+              <h3>Distributed System</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-computer-line" style="color: #e80368"></i>
+              <h3>Data Engineering</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-computer-line" style="color: #e80368"></i>
+              <h3>Data Analytics</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-smartphone-line" style="color: #5578ff"></i>
+              <h3>App Develops</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Interests -->
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Experience Section -->
+
+    <section id="experience" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://www.taishinbank.com.tw/TSB/en/" style="color: #071814"
+                  >Taishin International Commercial Bank</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">July 2022 - Present</h5>
+              <p style="text-align: left; color: #172615; font-size: medium">
+                <em>Software DevOps Internship, Online Banking Team </em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                   Modify Online bank contract terms content. - Create FCY Preferential Interest Account
+                </li>
+                <li>
+                  Deploy Codes on User acceptance testing (UAT) using HPE KEM (Kubernetes Enterprise Manager)Container Platform <br> - Investment , Gold Trading 
+                </li>
+                <li>
+                  Executes white-box testing by using Fortify Static Code Analyzer - 2022 Q3 , Investment  
+                </li>
+                <li>
+                   Executes online bank function testing as required by the project's needs, and verifies bug fixes. <br> - Investment , Foreign Currency , Gold Trading , Backstage 
+                </li>
+                <li>
+                   Keeping documentation up to date, including version control where required, for team processes.
+                </li>				
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h4 style="text-align: left">
+                <a href="https://codingapeschool.com/" style="color: #071814"
+                  >Coding APE</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">July 2020 - August 2020</h5>
+              <p style="text-align: left; color: #172615; font-size: medium">
+                <em>STEM Lecturer</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Teaching Python, APP programming ability to students
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Experience Section -->
+
+    <!-- Start Project Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Research / Coursework</li>
+              <li data-filter=".filter-project">Extra-curricular</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+		
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Time Series Data Process</h4>
+              <br />
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/timeseries.png"
+                class="img-fluid"
+                alt=""
+                style="height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/timeseries.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+	  
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Data Calculation Platform</h4>
+              <br />
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/Data Calculation Platform.png"
+                class="img-fluid"
+                alt=""
+                style="margin-top: 5px; height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/DataCalculationPlatform.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Food Order System</h4>
+              <br />
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/Food Order System.jpg"
+                class="img-fluid"
+                alt=""
+                style="margin-top: 5px; height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/Foodorder.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>IOS eBook</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/ios ebook.png"
+                class="img-fluid"
+                alt=""
+                style="margin-top: 5px; height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/IOSBook.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Coffee Shop & ART & Movies</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/Coffee Shop & ART & Movies.png"
+                class="img-fluid"
+                alt=""
+                style="height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/coffee.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <br>
+          <center><h4>KinStrike</h4></center>
+          <div class="portfolio-wrap">
+            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <div class="portfolio-links">
+                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center><h4>Bernese GNSS install Guide</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/Bernese GNSS install Guide.png"
+                class="img-fluid"
+                alt=""
+                style="height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/GNSS.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center>
+			<h4>Using PDF 
+			<br>
+			File Vulnerability to Hack
+			</h4>
+			</center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/PDF_file_leak.PNG"
+                class="img-fluid"
+                alt=""
+                style="margin-top: 5px; height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/PDF.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>AIOT-Moisture <br> Monitor System</h4>
+              <br />
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/AIOT.png"
+                class="img-fluid"
+                alt=""
+                style="margin-top: 5px; height: 250px; width: 100%"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/AIOT.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center><h4>Improve Tesseract OCR Transfering Numbers Accuracy</h4></center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/Tesseract_OCR.PNG"
+                class="img-fluid"
+                alt=""
+                style="height: 250px"
+              />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/OCR.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Project Section -->
+
+    <!-- Start Skills Section -->
+
+    <section id="skills" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">
+                Languages and Databases
+              </h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
+                  alt="Python"
+                  height="50"
+                  width="150"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+                  alt="HTML"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                  alt="CSS"
+                  height="60"
+                  width="90"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+                  alt="JS"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+                  alt="mongoDB"
+                  height="70"
+                  width="130"
+				/>
+                <img
+                  src="https://www.vectorlogo.zone/logos/influxdata/influxdata-ar21.svg"
+                  alt="InfluxDB"
+                  height="70"
+                  width="130"
+				/>
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff"
+            >
+              <h4 style="text-align: left; color: #09203a">Tools</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg"
+                  alt="vectorlogo.zone"
+                /> -->
+                <img
+                  src="https://www.vectorlogo.zone/logos/trello/trello-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+                <img
+                  src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
+                  alt="vectorlogo.zone"
+                /> 				
+                <img
+                  src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"
+                  alt="vectorlogo.zone"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Skills Section -->
+
+    <!-- Start Links section -->
+    <section id="links" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume & Links</h2>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-3 mt-4 mt-md-0 icon-box"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <a
+              href="https://drive.google.com/file/d/1yxLZs4MCYOcAtljkKFSuuFv1gq4u8Rm1/view?usp=sharing"
+              target="_blank"
+              ><div class="icon"><i class="icofont-page"></i></div
+            ></a>
+            <h4 class="title">
+              <a
+                href="https://drive.google.com/file/d/1yxLZs4MCYOcAtljkKFSuuFv1gq4u8Rm1/view?usp=sharing"
+                target="_blank"
+                >Resume</a
+              >
+            </h4>
+            <p class="description" style="color: #fff">
+              The link contains downloadable resume
+            </p>
+          </div>
+          <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+            <a
+              href="https://github.com/rajaprerak/LeetCode_Problems"
+              target="_blank"
+              ><div class="icon"><i class="icofont-link"></i></div
+            ></a>
+            <h4 class="title">
+              <a
+                href="https://github.com/rajaprerak/LeetCode_Problems"
+                target="_blank"
+                >LeetCode Repository</a
+              >
+            </h4>
+            <p class="description" style="color: #fff">
+              The github repository contains leetcode problems solution in
+              python.
+            </p>
+          </div> -->
+          <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
+          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
+        </div> -->
+        </div>
+      </div>
+    </section>
+    <!--End Links Section -->
+
+    <!-- Start Contact Section -->
+
+    <!-- <section id="contacts" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>My Address</h3>
+              <p>1275 E University Dr</p>
+              <p>Unit 212</p>
+              <p>Tempe, AZ 85281</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/rajaprerak"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.github.com/rajaprerak"
+                  target="_blank"
+                  class="github"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a
+                  href="mailto:rajaprerak@gmail.com"
+                  target="_blank"
+                  class="google"
+                  ><i class="bx bxl-google"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>rajaprerak@gmail.com</p>
+              <p>pkraja@asu.edu</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Contact</h3>
+              <p>+1 480-401-8112</p>
+            </div>
+          </div>
+        </div> -->
+    <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
+    <!-- </div>
+    </section> -->
+
+    <!-- End Contact Section -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <!-- <script type="text/javascript">
+      var typed = new Typed('.typing', {
+        strings: ['Developer', 'Tester', 'IoT Enthusiast'],
+        loop: true,
+        typeSpeed: 65,
+        backSpeed: 65,
+      });
+    </script> -->
+    <!-- <script type="text/javascript">
+      var custom_greet = document.getElementById('#intro-greeting');
+      var header = document.getElementById('#header');
+      if (document.onclick())
+        if (header.classList.contains('header-top')) {
+          console.log('Header-top activated');
+          custom_greet.style.display = 'none';
+        } else {
+          custom_greet.style.display = 'block';
+        }
+    </script> -->
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
