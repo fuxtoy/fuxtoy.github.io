@@ -235,7 +235,7 @@ h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgba(97 113 134,1);
+  background-color: #9ea9e4;
   transition: ease-in-out 0s;
   opacity: 0;
   visibility: hidden;
