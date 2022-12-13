@@ -17,11 +17,13 @@
   --custom-dark-green: #1c7d32;
   --custom-dark-yellow: #9e7f25;
   --custom-dark-blue: #09203a;
+  --custom-brown: #e87341;
+  
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: var(--white);
+  color: var(--custom-blue);
   position: relative;
   background: transparent;
 }
@@ -29,7 +31,7 @@ body {
 body::before {
   content: '';
   position: fixed;
-  background: var(--custom-blue);
+  background: var(--custom-gray);
   background-size: cover;
   left: 0;
   right: 0;
@@ -44,11 +46,11 @@ body::before {
 }
 
 a {
-  color: var(--custom-green);
+  color: var(--custom-brown);
 }
 
 a:hover {
-  color: var(--custom-green);
+  color: var(--custom-yellow);
   text-decoration: none;
 }
 
@@ -789,7 +791,7 @@ section .container {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: var(--custom-dark-green);
+  background: var(--custom-gray);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -801,12 +803,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background:rgba(0,0,255,0.3);
 }
 
 .portfolio .portfolio-wrap::before {
   content: '';
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,255,0.3);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -889,7 +891,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #e87341;
 }
 
 .portfolio .portfolio-wrap:hover::before {
