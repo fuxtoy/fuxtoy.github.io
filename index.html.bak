@@ -366,7 +366,6 @@
         </div>
         <div class="row">
           <div class="col-lg-12" data-aos="fade-up">
-		  <!---
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
@@ -381,15 +380,14 @@
               <p style="text-align: left; color: #172615; font-size: medium">
                 <em>Merchant Operations Intern</em>
               </p>
-			  
+			  <!---
               <ul style="text-align: left">
                 <li>
                   
                 </li>
               </ul>
-			  
+			  -->
             </div>
-		  -->
             <div
               class="col-md-12 mt-4 mt-md-0 icon-box"
               data-aos="fade-up"
@@ -402,7 +400,11 @@
               </h4>
               <h5 style="text-align: left">Jul 2022 - Nov 2022</h5>
               <p style="text-align: left; color: #172615; font-size: medium">
+<<<<<<< HEAD
                 <em>System DevOps Intern @ Online Banking Team </em>
+=======
+                <em>System DevOps Intern, Online Banking Team </em>
+>>>>>>> 65eed52bd82c98916899a7c919bbfe4f17937890
               </p>
               <ul style="text-align: left">
                 <li>
