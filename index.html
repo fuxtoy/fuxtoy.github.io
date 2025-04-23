@@ -56,33 +56,54 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="header-tops">
-      <div class="container">
-        <h4 id="intro-greeting" style="font-size: 36px; margin-top: 0; padding: 0; line-height: 1; font-weight: 700; font-family: 'Poppins', sans-serif;">
-          Hi, I'm
-        </h4>
-        <h1><a href="index.html" id="full-name">Tim Chen</a></h1>
-        <h2 style="color: #004085">
-          I'm a <span class="typing" style="color: #9ea9e4"></span>
-        </h2>
+	<!-- ======= Header ======= -->
+	<header id="header" class="header-tops">
+	  <div class="container">
+		<h4 id="intro-greeting"; style="font-size: 36px; margin-top: 0; padding: 0; line-height: 1; font-weight: 700; font-family: 'Poppins', sans-serif;">
+		  Hi, I'm
+		</h4>
+		<h1><a href="index.html">Tim Chen</a></h1>
+		<h2 style="color: #004085">
+		  I'm a <span class="typing" style="color: #9ea9e4"></span>
+		</h2>
+
+		<!-- Mobile Navigation Toggle -->
+		<button class="mobile-nav-toggle" aria-label="Toggle Mobile Navigation">
+		  <i class="bx bx-menu-alt-right"></i>
+		  <span class="fallback-icon" style="display: none;">☰</span>
+		</button>
+		<!-- Desktop Navigation -->
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header"><span>Home</span></a></li>
+            <li class="active"><a href="index.html"><span>Home</span></a></li>
             <li><a href="#about"><span>About</span></a></li>
             <li><a href="#experience"><span>Experience</span></a></li>
             <li><a href="#portfolio"><span>Projects</span></a></li>
             <li><a href="#skills"><span>Skills</span></a></li>
           </ul>
         </nav>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/tim-chen-popo" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/fuxtoy" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:timchen0719@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-        </div>
-      </div>
-    </header>
-    <!-- End Header -->
+		<!-- Mobile Navigation Menu -->
+		<nav class="mobile-nav">
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#portfolio">Projects</a></li>
+			<li><a href="#skills">Skills</a></li>
+		  </ul>
+		</nav>
+
+		<!-- Mobile Navigation Overlay -->
+		<div class="mobile-nav-overlay"></div>
+
+		<div class="social-links">
+		  <a href="https://www.linkedin.com/in/tim-chen-popo" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+		  <a href="https://github.com/fuxtoy" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+		  <a href="mailto:timchenpopo@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+		</div>
+	  </div>
+	</header>
+	<!-- End Header -->
 
 	<!-- ======= About Section ======= -->
 	<section id="about" class="about">
@@ -643,61 +664,94 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
-    <!-- Custom JS for Typed.js, Back to Top, and Form Validation -->
+  
+	<!-- Custom JavaScript -->
 	<script>
+	  // 確保 jQuery 已載入
 	  $(document).ready(function() {
+		// Typed.js 動畫
 		var typed = new Typed('.typing', {
 		  strings: ['Developer', 'Business Intelligence Engineer', 'New Tech Lover'],
 		  loop: true,
 		  typeSpeed: 65,
-		  backSpeed: 65,
+		  backSpeed: 65
 		});
+	  });
 
-		// Back to Top Button Visibility
-		$(window).scroll(function() {
-		  if ($(this).scrollTop() > 100) {
-			$('#back-to-top').fadeIn();
-		  } else {
-			$('#back-to-top').fadeOut();
-		  }
-		});
-
-		// Contact Form Validation
-		$('#contact-form').on('submit', function(e) {
-		  const email = $('#email').val();
-		  const name = $('#name').val();
-		  const message = $('#message').val();
-		  if (!email || !name || !message) {
-			e.preventDefault();
-			alert('Please fill out all fields.');
-		  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-			e.preventDefault();
-			alert('Please enter a valid email address.');
-		  }
-		});
-
+	  document.addEventListener('DOMContentLoaded', function() {
 		// Mobile Navigation Toggle
-		$('.mobile-nav-toggle').click(function() {
-		  $('body').toggleClass('mobile-nav-active');
-		  $('.mobile-nav-overly').toggle();
-		  $('.mobile-nav').toggleClass('mobile-nav-active');
-		  $(this).find('i').toggleClass('bx-menu bx-x');
-		});
+		const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+		const mobileNav = document.querySelector('.mobile-nav');
+		const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+		const body = document.body;
 
-		// Close mobile nav when clicking a link
-		$('.mobile-nav a').click(function() {
-		  $('body').removeClass('mobile-nav-active');
-		  $('.mobile-nav-overly').hide();
-		  $('.mobile-nav').removeClass('mobile-nav-active');
-		  $('.mobile-nav-toggle i').removeClass('bx-x').addClass('bx-menu');
+		mobileNavToggle.addEventListener('click', function() {
+		  body.classList.toggle('mobile-nav-active');
+		  mobileNav.classList.toggle('active');
+		  mobileNavOverlay.classList.toggle('active');
+		  const icon = mobileNavToggle.querySelector('i');
+          icon.classList.toggle('bx-menu');
+          icon.classList.toggle('bx-x-circle');
 		});
 
 		// Close mobile nav when clicking overlay
-		$('.mobile-nav-overly').click(function() {
-		  $('body').removeClass('mobile-nav-active');
-		  $(this).hide();
-		  $('.mobile-nav').removeClass('mobile-nav-active');
-		  $('.mobile-nav-toggle i').removeClass('bx-x').addClass('bx-menu');
+		mobileNavOverlay.addEventListener('click', closeMobileNav);
+
+		// Handle navigation link clicks (for both desktop and mobile nav)
+		const navLinks = document.querySelectorAll('.nav-menu a, .mobile-nav a, .container h1 a');
+		navLinks.forEach(link => {
+		  link.addEventListener('click', function(e) {
+			const href = this.getAttribute('href');
+			if (href === 'index.html') {
+			  // Allow default behavior for index.html (reload page)
+			  window.location.href = 'index.html';
+			  return;
+			}
+
+			e.preventDefault(); // 阻止預設連結行為（僅對 # 連結）
+			const targetId = href.substring(1); // 獲取目標 section 的 ID
+			showSection(targetId); // 顯示目標 section
+			closeMobileNav(); // 關閉移動導航
+		  });
+		});
+
+		function closeMobileNav() {
+		  body.classList.remove('mobile-nav-active');
+		  mobileNav.classList.remove('active');
+		  mobileNavOverlay.classList.remove('active');
+		  const icon = mobileNavToggle.querySelector('i');
+		  icon.classList.add('bx-menu');
+		  icon.classList.remove('bx-x-circle');
+		}
+
+		function showSection(targetId) {
+		  // 移除所有 section 的 "section-show" 類名
+		  document.querySelectorAll('section').forEach(section => {
+			section.classList.remove('section-show');
+		  });
+
+		  // 移除 <h4 id="intro-greeting">（任何導航點擊時）
+		  const introGreeting = document.getElementById('intro-greeting');
+		  if (introGreeting) {
+			introGreeting.remove(); // 完全移除元素
+		  }
+
+		const targetSection = document.getElementById(targetId);
+		if (targetSection) {
+		  targetSection.classList.add('section-show');
+			}
+		}
+
+		// Fallback for icons
+		const bxIcons = document.querySelectorAll('.bx');
+		bxIcons.forEach(icon => {
+		  if (!icon.offsetWidth) {
+			const fallback = icon.parentElement.querySelector('.fallback-icon');
+			if (fallback) {
+			  icon.style.display = 'none';
+			  fallback.style.display = 'inline';
+			}
+		  }
 		});
 	  });
 	</script>
